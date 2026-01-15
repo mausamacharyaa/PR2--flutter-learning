@@ -1,3 +1,4 @@
+import 'package:demo_app/currency_converter.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -10,10 +11,7 @@ class Mausam extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(
-        body: Text('Mausam Donna'),
-        
-      ),
+      home: CurrencyConverterMaterialPage(),
     );
   }
 }
